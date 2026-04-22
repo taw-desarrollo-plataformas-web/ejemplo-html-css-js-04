@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .           # ./docs o ./dist si corresponde
+          path: ./ejemplo           # ./docs o ./dist si corresponde
 
       # Publica en GitHub Pages
       - name: Deploy to GitHub Pages
